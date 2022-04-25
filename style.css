@@ -1,0 +1,55 @@
+body h1 {
+  font-family: 'SF Pro Display';
+  font-size: 50px;
+  font-weight: 800;
+  width: 300px;
+  margin-left: 500px;
+  margin-top: 40px;
+  color: #747474;
+}
+
+body h1 span {
+  color: black;
+}
+
+body img {
+  width: 300px;
+  margin-left: 60px;
+  background-color: #e8e8e8;
+}
+
+body .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .flex-container div img {
+  margin-left: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+  body h1 {
+    font-family: 'SF Pro Display';
+    font-size: 50px;
+    font-weight: 600;
+    width: 300px;
+    margin-left: 40px;
+    color: #747474;
+  }
+  body h1 span {
+    color: black;
+  }
+  body img {
+    width: 250px;
+    margin-left: 44px;
+  }
+  body .flex-container {
+    display: -ms-grid;
+    display: grid;
+  }
+  body .flex-container div img {
+    margin-left: 47px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
